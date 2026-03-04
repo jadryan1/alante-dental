@@ -151,7 +151,7 @@ export default function Home() {
       <nav className={`fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-silver-200 transition-transform duration-300 ease-in-out ${headerVisible ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="max-w-6xl mx-auto px-6 py-2 flex items-center">
           {/* Left spacer to help centering - hidden on mobile if needed, but here we use a grid-like flex approach */}
-          <div className="flex-1 hidden md:block" />
+          <div className="flex-1" />
 
           {/* Centered Logo Unit */}
           <div className="flex flex-col items-center justify-center text-center gap-1 mx-auto">
@@ -180,7 +180,7 @@ export default function Home() {
       </nav>
 
       {/* ─── HERO ─── */}
-      <section className="relative min-h-screen flex items-center justify-center bg-white pt-20">
+      <section className="relative min-h-screen flex items-center justify-center bg-white pt-40">
         {/* Geometric accent shapes */}
         <div className="absolute top-20 right-0 w-72 h-72 bg-silver-100 rounded-full blur-3xl opacity-60" />
         <div className="absolute bottom-10 left-0 w-96 h-96 bg-navy-700/5 rounded-full blur-3xl" />

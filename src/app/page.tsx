@@ -454,7 +454,7 @@ export default function Home() {
             {[
               { value: "$5,500", label: "Average Invisalign Case Value" },
               { value: "$16,500+", label: "Revenue from 3 Consultations" },
-              { value: "68%", label: "Of Leads That Never Get Called Back" },
+              { value: "68%", label: "Of Leads  Never Get Called Back" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="font-heading text-3xl sm:text-4xl font-800 text-navy-700">{stat.value}</p>
@@ -484,7 +484,7 @@ export default function Home() {
           {/* Calendly Inline Widget */}
           <div
             className="calendly-inline-widget"
-            data-url="https://calendly.com/alantemediaconsulting/free-strategy-call?primary_color=05337d"
+            data-url="https://calendly.com/alantemediaconsulting/free-strategy-call"
             style={{ minWidth: '320px', height: '700px' }}
           />
           <Script
@@ -501,10 +501,10 @@ export default function Home() {
             Alanté<span className="text-silver-400">.</span>
           </span>
           <a
-            href="mailto:hello@alantemedia.com"
+            href="mailto:alantemediaconsulting@gmail.com"
             className="text-white/60 hover:text-white text-sm transition-colors duration-200"
           >
-            hello@alantemedia.com
+            alantemediaconsulting@gmail.com
           </a>
         </div>
       </footer>
